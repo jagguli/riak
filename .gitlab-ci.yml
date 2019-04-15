@@ -8,6 +8,10 @@ variables:
   DOCKER_HOST: tcp://docker:2375
   DOCKER_DRIVER: overlay2
 
+cache:
+  paths:
+    - /tmp/solr/
+
 before_script:
   - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN registry.gitlab.com
 

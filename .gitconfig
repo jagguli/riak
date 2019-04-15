@@ -1,0 +1,45 @@
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    cp = cherry-pick
+    rev = review
+    revx = review -x
+    amend = commit --amend
+    refin = review --finish
+    redown = review --download
+    lg = "!git --no-pager log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+    who = shortlog -s --
+    meld = !~/.lib/git-meld/git-meld.pl
+[include]
+    path = ~/.gitconfig.local
+[log]
+	decorate = full
+[merge]
+	tool = vimdiff
+[url "https://"]
+	insteadOf = git://
+[http]
+	sslVerify = False
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+
+[url "git://github.com/jagguli/bitcask"]
+    insteadOf = git://github.com/basho/bitcask
+[url "git://github.com/jagguli/clique"]
+    insteadOf = git://github.com/basho/clique
+    insteadOf = https://github.com/basho/clique
+[url "git://github.com/jagguli/cluster_info"]
+    insteadOf = git://github.com/basho/cluster_info
+[url "git://github.com/jagguli/riak_kv"]
+    insteadOf = git://github.com/basho/riak_kv
+[url "git://github.com/jagguli/yokozuna"]
+    insteadOf = git://github.com/basho/yokozuna
+[url "git://github.com/jagguli/riak-erlang-client/"]
+    insteadOf = git://github.com/basho/riak-erlang-client
+    insteadOf = https://github.com/basho/riak-erlang-client

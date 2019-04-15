@@ -6,7 +6,7 @@
  {<<"bear">>,{pkg,<<"bear">>,<<"0.8.7">>},5},
  {<<"bitcask">>,
   {git,"git://github.com/basho/bitcask.git",
-       {ref,"fa6e5166de683a351ca63f97b6a08c9b815affab"}},
+       {ref,"7e8e144f0edd822c695a8d14aa2efbe966827187"}},
   1},
  {<<"canola">>,
   {git,"git://github.com/basho/canola.git",
@@ -14,11 +14,11 @@
   1},
  {<<"clique">>,
   {git,"git://github.com/basho/clique.git",
-       {ref,"54d3a9fa2fe3fbe163185232097379b66c3388dc"}},
+       {ref,"c429ad2a529b34888df3a166e2658aa4aa20363f"}},
   3},
  {<<"cluster_info">>,
   {git,"git://github.com/basho/cluster_info.git",
-       {ref,"d12dec63294479e70823711fe61ed0dbf9db38c2"}},
+       {ref,"7f11025b65365a5f03a95762d1d6ddf822b800ee"}},
   0},
  {<<"cuttlefish">>,
   {git,"https://github.com/basho/cuttlefish.git",
@@ -157,7 +157,7 @@
   2},
  {<<"yokozuna">>,
   {git,"git://github.com/basho/yokozuna.git",
-       {ref,"adbdde26499b62afe2da6ece7b8b7be8417819b5"}},
+       {ref,"f9ea2a6de7112cdac50d82520359429822d6491e"}},
   0}]}.
 [
 {pkg_hash,[

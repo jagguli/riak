@@ -1,4 +1,5 @@
 FROM erlang
+RUN apt-get --assume-yes install libpam-runtime
 RUN mkdir -p /opt/riak/
 SHELL ["/bin/bash", "-c"]
 ADD . /opt/riak/
